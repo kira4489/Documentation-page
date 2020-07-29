@@ -36,12 +36,17 @@
     justify-content: center;
 }
 
-ul{
+#navbar ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#navbar ul{
  margin-top: 100px;
 }
 
 .navbar-link a{
-   background-color: aqua;
+  text-decoration: none;
 }
 
 #main-doc{
