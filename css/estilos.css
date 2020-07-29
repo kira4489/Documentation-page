@@ -64,6 +64,19 @@
 
 .main-section p{
     margin-top: 20px;
+    margin-bottom: 30px;
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.foto{
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+
+.foto1{
+    width: 50%;
+    display: block;
+    margin: auto;
 }
