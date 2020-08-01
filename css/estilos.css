@@ -1,21 +1,28 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#prueba{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    padding: 10px;
+body{
+  background-image: url(../imagenes/fondo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
 }
 
-#navbar #prueba{
-    text-transform: uppercase;
+#prueba {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 10px;
 }
 
-#navbar{
+#navbar #prueba {
+  text-transform: uppercase;
+}
+
+#navbar {
   position: fixed;
   min-width: 290px;
   top: 0px;
@@ -23,60 +30,62 @@
   width: 280px;
   height: 100%;
   border-right: solid black;
+  background-color: red;
 }
 
 #navbar li {
-   border-top: 1px solid;
-    list-style: none;
-    display: flex;
-    width: 100%;
-    padding: 10px 30px;
-    justify-content: center;
+  border-top: 1px solid;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  padding: 10px 30px;
+  justify-content: center;
 }
 
-#navbar ul li a{
-    text-decoration: none;
-    text-transform: capitalize;
-    color: black;
+#navbar ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
 }
 
-#navbar ul{
- margin-top: 100px;
+#navbar ul {
+  margin-top: 100px;
 }
 
-.navbar-link a{
+.navbar-link a {
   text-decoration: none;
 }
 
-.main-section{
-    position: relative;
-    margin-left: 350px;
-    margin-right: 50px;
-    margin-top: 20px;
+.main-section {
+  position: relative;
+  margin-left: 350px;
+  margin-right: 50px;
+  margin-top: 20px;
 }
 
-.main-section h2{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    text-transform: capitalize;
+.main-section h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
 }
 
-.main-section p{
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.main-section p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.foto{
-    width: 25%;
-    display: block;
-    margin: auto;
+.foto {
+  width: 25%;
+  display: block;
+  margin: auto;
 }
 
-.foto1{
-    width: 50%;
-    display: block;
-    margin: auto;
+.foto1 {
+  width: 50%;
+  display: block;
+  margin: auto;
+  padding: 15px;
 }
