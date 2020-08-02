@@ -94,6 +94,9 @@ body{
   .foto{
     width: 85%;
   }
+  .foto1{
+    width: 85%;
+  }
 }
 
 @media screen and (max-width: 500px) {
