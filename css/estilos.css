@@ -105,7 +105,13 @@ body{
   margin-left: 230px;
   max-width: 100%;
 }
+#prueba{
+  margin-left: 20px;
+}
 .foto{
+  width: 85%;
+}
+.foto1{
   width: 85%;
 }
 }
